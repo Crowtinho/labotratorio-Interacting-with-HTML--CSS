@@ -1,0 +1,53 @@
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Estilo del contador */
+#contador {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: black;
+  transition: color 0.3s ease;
+  text-align: center;
+  border-radius: 50%;
+}
+
+/* Botones */
+.miBoton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Hover y clic */
+.miBoton:hover {
+  background-color: #45a049;
+}
+.miBoton:active {
+  transform: scale(0.98);
+}
+
+/* Formulario como contenedor de botones */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
